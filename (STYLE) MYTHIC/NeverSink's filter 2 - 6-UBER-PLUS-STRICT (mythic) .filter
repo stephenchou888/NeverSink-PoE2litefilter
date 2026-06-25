@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.10.2a
+# VERSION:  0.10.3
 # TYPE:     6-UBER-PLUS-STRICT
 # STYLE:    MYTHIC
 # AUTHOR:   NeverSink
@@ -844,7 +844,7 @@ Show # %D9 $type->endgame->normalcraft->economy $tier->group1t1 !itemproperty_ae
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal
-	BaseType == "Ancestral Tiara" "Gold Amulet" "Gold Ring" "Obliterator Bow" "Prismatic Ring" "Sekhema Sandals" "Sinister Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Solar Amulet" "Vile Robe" "Warmonger Bow"
+	BaseType == "Ancestral Tiara" "Daggerfoot Shoes" "Dousing Charm" "Gold Amulet" "Gold Ring" "Obliterator Bow" "Sacred Focus" "Sapphire Charm" "Sekhema Sandals" "Sinister Quarterstaff" "Slipstrike Vest" "Solar Amulet" "Stone Charm" "Tasalian Focus" "Thawing Charm" "Vile Robe" "Warmonger Bow"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 127 127 255
@@ -858,7 +858,7 @@ Show # %D7 $type->endgame->normalcraft->economy $tier->group1t2 !itemproperty_be
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal
-	BaseType == "Amber Amulet" "Amethyst Ring" "Bolting Quarterstaff" "Corsair Coat" "Daggerfoot Shoes" "Dragonscale Boots" "Drakeskin Boots" "Dreaming Quarterstaff" "Flying Spear" "Grand Bracers" "Grinning Mask" "Lapis Amulet" "Luxurious Slippers" "Opulent Gloves" "Plate Belt" "Quickslip Shoes" "Ruby Ring" "Sacred Focus" "Sandsworn Sandals" "Sapphire Ring" "Secured Wraps" "Siege Crossbow" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Stellar Amulet" "Striking Quarterstaff" "Tasalian Focus" "Tawhoan Tower Shield" "Topaz Ring" "Unset Ring" "Vaal Gloves"
+	BaseType == "Amber Amulet" "Amethyst Ring" "Antidote Charm" "Drakeskin Boots" "Elegant Wraps" "Flowing Raiment" "Gemini Crossbow" "Grounding Charm" "Lapis Amulet" "Lunar Amulet" "Prismatic Ring" "Quickslip Shoes" "Razor Quarterstaff" "Ruby Ring" "Sandsworn Sandals" "Sapphire Ring" "Siege Crossbow" "Sirenscale Gloves" "Sleek Jacket" "Staunching Charm" "Striking Quarterstaff" "Tawhoan Tower Shield" "Topaz Ring" "Unset Ring" "Vaal Wraps"
 	SetFontSize 45
 	SetBorderColor 255 127 127
 	SetBackgroundColor 20 20 0 255
@@ -866,12 +866,39 @@ Show # %D7 $type->endgame->normalcraft->economy $tier->group1t2 !itemproperty_be
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Diamond
 
-Show # %D6 $type->endgame->normalcraft->economy $tier->group2t2 !itemproperty_becocraft
+Show # %D9 $type->endgame->normalcraft->economy $tier->group2t1 !itemproperty_aecocraft
+	Mirrored False
+	Corrupted False
+	ItemLevel >= 81
+	Rarity Normal
+	BaseType == "Gold Amulet" "Gold Ring" "Sacred Focus" "Sinister Quarterstaff"
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 127 127 255
+	SetBackgroundColor 65 0 0
+	PlayAlertSound 1 300
+	PlayEffect Red
+	MinimapIcon 0 Red Diamond
+
+Show # %D7 $type->endgame->normalcraft->economy $tier->group2t2 !itemproperty_becocraft
+	Mirrored False
+	Corrupted False
+	ItemLevel >= 81
+	Rarity Normal
+	BaseType == "Siege Crossbow" "Tasalian Focus"
+	SetFontSize 45
+	SetBorderColor 255 127 127
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 3 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Diamond
+
+Show # %D6 $type->endgame->normalcraft->economy $tier->group3t2 !itemproperty_becocraft
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 79
 	Rarity Normal
-	BaseType == "Ancestral Tiara" "Gold Amulet" "Gold Ring" "Obliterator Bow" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Dousing Charm" "Gold Ring" "Sacred Focus" "Tasalian Focus" "Vile Robe"
 	SetFontSize 45
 	SetBorderColor 255 127 127
 	SetBackgroundColor 20 20 0 255
@@ -2187,7 +2214,7 @@ Show # $type->xenotiering $tier->s !apex_stier
 	MinimapIcon 0 Red Star
 
 Show # %H8 $type->xenotiering $tier->a !xeno_a
-	BaseType == "Carved Mischief" "Carved Tenacity" "Cryptic Key" "Emergent Instinct" "Emergent Protection" "Emergent Vigour" "Masterwork Rune" "Perfect Adept Rune" "Perfect Body Rune" "Perfect Charging Rune" "Perfect Desert Rune" "Perfect Glacial Rune" "Perfect Inspiration Rune" "Perfect Iron Rune" "Perfect Mind Rune" "Perfect Rebirth Rune" "Perfect Resolve Rune" "Perfect Robust Rune" "Perfect Stone Rune" "Perfect Storm Rune" "Perfect Vision Rune" "Perfect Ward Rune" "Revelatory Wombgift" "Shattered Triskelion" "Sovereign Alloy" "Veridical Starlit Ore" "Void Flux" "Vorana's Saga" "Warding Starlit Ore"
+	BaseType == "Carved Mischief" "Carved Tenacity" "Cryptic Key" "Emergent Instinct" "Emergent Protection" "Emergent Vigour" "Liquid Verisium" "Masterwork Rune" "Perfect Adept Rune" "Perfect Body Rune" "Perfect Charging Rune" "Perfect Desert Rune" "Perfect Glacial Rune" "Perfect Inspiration Rune" "Perfect Iron Rune" "Perfect Mind Rune" "Perfect Rebirth Rune" "Perfect Resolve Rune" "Perfect Robust Rune" "Perfect Stone Rune" "Perfect Storm Rune" "Perfect Vision Rune" "Perfect Ward Rune" "Revelatory Wombgift" "Shattered Triskelion" "Sovereign Alloy" "Veridical Starlit Ore" "Void Flux" "Vorana's Saga" "Warding Starlit Ore"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -2232,7 +2259,7 @@ Show # %H6 $type->xenotiering $tier->d !xeno_d
 #	MinimapIcon 2 Grey UpsideDownHouse
 
 Hide # $type->xenotiering $tier->exhide !utility_minimize
-	BaseType == "Adaptive Alloy" "Aldur's Saga" "Animus Exchange" "Animus Splinters" "Banded Wombgift" "Bitter Dead" "Blazing Flux" "Carved Cunning" "Carved Majesty" "Carved Mischief" "Carved Tenacity" "Celestial Alloy" "Chilling Flux" "Concussive Runes" "Conductive Runes" "Crackling Flux" "Cryptic Key" "Cyclonic Alloy" "Detonate Living" "Emergent Instinct" "Emergent Possibility" "Emergent Protection" "Emergent Vigour" "Eternal March" "Exceptional Verisium" "Expansive Alloy" "Explosive Transmutation" "Fist of Kalguur" "Fragments of the Past" "Frostflame Nova" "Grim Pillars" "Healing Runes" "Hollow Shell" "Lavish Wombgift" "Leylines" "Masterwork Rune" "Medved's Crest of the Circle" "Medved's Saga" "Mystic Alloy" "Olroth's Crest of the Sun" "Olroth's Saga" "Ornate Wombgift" "Perfect Adept Rune" "Perfect Body Rune" "Perfect Charging Rune" "Perfect Desert Rune" "Perfect Flux" "Perfect Glacial Rune" "Perfect Inspiration Rune" "Perfect Iron Rune" "Perfect Mind Rune" "Perfect Rebirth Rune" "Perfect Resolve Rune" "Perfect Robust Rune" "Perfect Stone Rune" "Perfect Storm Rune" "Perfect Vision Rune" "Perfect Ward Rune" "Powered by Verisium" "Prismatic Alloy" "Protective Alloy" "Rain of Blades" "Refutation" "Remnants of Kalguur" "Repulsion" "Revelatory Wombgift" "Revered Starlit Ore" "Runeforged Blades" "Runic Alloy" "Runic Extraction" "Runic Infusion" "Runic Reprieve" "Scouring Flame" "Shattered Triskelion" "Signet Wombgift" "Skyfall" "Sovereign Alloy" "Starlit Ore" "Swift Alloy" "Thaumaturgic Flux (Level 1)" "Thaumaturgic Flux (Level 10)" "Thaumaturgic Flux (Level 11)" "Thaumaturgic Flux (Level 12)" "Thaumaturgic Flux (Level 13)" "Thaumaturgic Flux (Level 14)" "Thaumaturgic Flux (Level 15)" "Thaumaturgic Flux (Level 16)" "Thaumaturgic Flux (Level 17)" "Thaumaturgic Flux (Level 18)" "Thaumaturgic Flux (Level 19)" "Thaumaturgic Flux (Level 2)" "Thaumaturgic Flux (Level 20)" "Thaumaturgic Flux (Level 3)" "Thaumaturgic Flux (Level 4)" "Thaumaturgic Flux (Level 5)" "Thaumaturgic Flux (Level 6)" "Thaumaturgic Flux (Level 7)" "Thaumaturgic Flux (Level 8)" "Thaumaturgic Flux (Level 9)" "The Runebinder's Alloy" "The Runefather's Alloy" "Transcendent Alloy" "Triskelion Cascade" "Uhtred's Crest of the Chalice" "Uhtred's Saga" "Venerable Starlit Ore" "Veridical Starlit Ore" "Verisium Manifestations" "Void Flux" "Voltaic Barrier" "Vorana's Crest of the Scythe" "Vorana's Saga" "Wardbound Minions" "Warding Starlit Ore"
+	BaseType == "Adaptive Alloy" "Aldur's Saga" "Animus Exchange" "Animus Splinters" "Banded Wombgift" "Bitter Dead" "Blazing Flux" "Carved Cunning" "Carved Majesty" "Carved Mischief" "Carved Tenacity" "Celestial Alloy" "Chilling Flux" "Concussive Runes" "Conductive Runes" "Crackling Flux" "Cryptic Key" "Cyclonic Alloy" "Detonate Living" "Emergent Instinct" "Emergent Possibility" "Emergent Protection" "Emergent Vigour" "Eternal March" "Exceptional Verisium" "Expansive Alloy" "Explosive Transmutation" "Fist of Kalguur" "Fragments of the Past" "Frostflame Nova" "Grim Pillars" "Healing Runes" "Hollow Shell" "Lavish Wombgift" "Leylines" "Liquid Verisium" "Masterwork Rune" "Medved's Crest of the Circle" "Medved's Saga" "Mystic Alloy" "Olroth's Crest of the Sun" "Olroth's Saga" "Ornate Wombgift" "Perfect Adept Rune" "Perfect Body Rune" "Perfect Charging Rune" "Perfect Desert Rune" "Perfect Flux" "Perfect Glacial Rune" "Perfect Inspiration Rune" "Perfect Iron Rune" "Perfect Mind Rune" "Perfect Rebirth Rune" "Perfect Resolve Rune" "Perfect Robust Rune" "Perfect Stone Rune" "Perfect Storm Rune" "Perfect Vision Rune" "Perfect Ward Rune" "Powered by Verisium" "Prismatic Alloy" "Protective Alloy" "Rain of Blades" "Refutation" "Remnants of Kalguur" "Repulsion" "Revelatory Wombgift" "Revered Starlit Ore" "Runeforged Blades" "Runic Alloy" "Runic Extraction" "Runic Infusion" "Runic Reprieve" "Scouring Flame" "Shattered Triskelion" "Signet Wombgift" "Skyfall" "Sovereign Alloy" "Starlit Ore" "Swift Alloy" "Thaumaturgic Flux (Level 1)" "Thaumaturgic Flux (Level 10)" "Thaumaturgic Flux (Level 11)" "Thaumaturgic Flux (Level 12)" "Thaumaturgic Flux (Level 13)" "Thaumaturgic Flux (Level 14)" "Thaumaturgic Flux (Level 15)" "Thaumaturgic Flux (Level 16)" "Thaumaturgic Flux (Level 17)" "Thaumaturgic Flux (Level 18)" "Thaumaturgic Flux (Level 19)" "Thaumaturgic Flux (Level 2)" "Thaumaturgic Flux (Level 20)" "Thaumaturgic Flux (Level 3)" "Thaumaturgic Flux (Level 4)" "Thaumaturgic Flux (Level 5)" "Thaumaturgic Flux (Level 6)" "Thaumaturgic Flux (Level 7)" "Thaumaturgic Flux (Level 8)" "Thaumaturgic Flux (Level 9)" "The Runebinder's Alloy" "The Runefather's Alloy" "Transcendent Alloy" "Triskelion Cascade" "Uhtred's Crest of the Chalice" "Uhtred's Saga" "Venerable Starlit Ore" "Veridical Starlit Ore" "Verisium Manifestations" "Void Flux" "Voltaic Barrier" "Vorana's Crest of the Scythe" "Vorana's Saga" "Wardbound Minions" "Warding Starlit Ore"
 	SetFontSize 18
 	SetBackgroundColor 20 20 0 0
 
@@ -2531,19 +2558,25 @@ Show # $type->gems->uncut $tier->skill20 !apex_stier
 
 # Level19
 
-Hide # %H5 $type->gems->uncut $tier->spirit19 !typebased_gems1
+Show # %H6 $type->gems->uncut $tier->spirit19 !typebased_gems1
 	GemLevel 19
 	BaseType "Uncut Spirit Gem"
 	SetFontSize 45
 	SetTextColor 163 53 238 255
 	SetBorderColor 163 53 238 255
+	PlayAlertSound 2 300
+	PlayEffect Purple
+	MinimapIcon 1 Purple Circle
 
-Hide # %H5 $type->gems->uncut $tier->skill19 !typebased_gems1
+Show # %H6 $type->gems->uncut $tier->skill19 !typebased_gems1
 	GemLevel 19
 	BaseType "Uncut Skill Gem"
 	SetFontSize 45
 	SetTextColor 163 53 238 255
 	SetBorderColor 163 53 238 255
+	PlayAlertSound 2 300
+	PlayEffect Purple
+	MinimapIcon 1 Purple Circle
 
 # Spirit Gem Progression
 
@@ -3226,7 +3259,7 @@ Show # $type->currency $tier->s !apex_stier
 
 Show # %H8 $type->currency $tier->a !currency_a
 	Class == "Incubators" "Stackable Currency"
-	BaseType == "Architect's Orb" "Core Destabiliser" "Crystallised Corruption" "Orb of Annulment" "Orb of Chance" "Perfect Regal Orb" "Preserved Collarbone" "Preserved Cranium" "Vaal Armourer's Infuser" "Vaal Blacksmith's Infuser" "Vaal Catalysing Infuser"
+	BaseType == "Architect's Orb" "Core Destabiliser" "Crystallised Corruption" "Kamasa's Orb of Sacrifice" "Kopec's Orb of Sacrifice" "Orb of Annulment" "Orb of Chance" "Perfect Regal Orb" "Preserved Collarbone" "Preserved Cranium" "Vaal Armourer's Infuser" "Vaal Blacksmith's Infuser" "Vaal Catalysing Infuser" "Yaomac's Orb of Sacrifice" "Yugul's Orb of Sacrifice"
 	SetFontSize 45
 	SetTextColor 255 128 0 255
 	SetBorderColor 255 128 0 255
@@ -3267,18 +3300,7 @@ Hide # %H3 $type->currency $tier->e !currency_e
 	SetFontSize 45
 	SetTextColor 30 235 0 255
 
-# Artifacts and special drops
-
-#Show # %H7 $type->currency $tier->artifactlike !currency_specialartifact
-#	Class == "Incubators" "Stackable Currency"
-#	SetFontSize 45
-#	SetTextColor 0 112 221 255
-#	SetBorderColor 0 112 221 255
-#	PlayAlertSound 2 300
-#	PlayEffect Blue
-#	MinimapIcon 1 Blue Circle
-
-Hide # %H3 $type->currency $tier->supplymagic !currency_supply2
+Hide # %H2 $type->currency $tier->supplymagic !currency_supply2
 	Class == "Incubators" "Stackable Currency"
 	BaseType == "Alchemy Shard" "Artificer's Shard" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard"
 	SetFontSize 40
@@ -3391,7 +3413,7 @@ Show # $type->currency->emotions $tier->restex !utility_unknownitem
 
 Show # %H8 $type->currency->catalysts $tier->a !currency_a
 	Class == "Incubators" "Stackable Currency"
-	BaseType == "Reaver Catalyst" "Refined Reaver Catalyst" "Refined Sibilant Catalyst"
+	BaseType == "Reaver Catalyst" "Refined Necrotic Catalyst" "Refined Reaver Catalyst" "Refined Sibilant Catalyst"
 	SetFontSize 45
 	SetTextColor 255 128 0 255
 	SetBorderColor 255 128 0 255
@@ -3401,7 +3423,7 @@ Show # %H8 $type->currency->catalysts $tier->a !currency_a
 
 Show # %H7 $type->currency->catalysts $tier->b !currency_b
 	Class == "Incubators" "Stackable Currency"
-	BaseType == "Chayula's Catalyst" "Esh's Catalyst" "Refined Carapace Catalyst" "Refined Esh's Catalyst" "Refined Skittering Catalyst" "Refined Tul's Catalyst" "Refined Xoph's Catalyst" "Sibilant Catalyst" "Tul's Catalyst" "Uul-Netol's Catalyst" "Xoph's Catalyst"
+	BaseType == "Chayula's Catalyst" "Esh's Catalyst" "Necrotic Catalyst" "Refined Carapace Catalyst" "Refined Esh's Catalyst" "Refined Skittering Catalyst" "Refined Tul's Catalyst" "Refined Xoph's Catalyst" "Sibilant Catalyst" "Tul's Catalyst" "Uul-Netol's Catalyst" "Xoph's Catalyst"
 	SetFontSize 45
 	SetTextColor 163 53 238 255
 	SetBorderColor 163 53 238 255
@@ -3435,7 +3457,7 @@ Show # %H6 $type->currency->catalysts $tier->c !currency_c
 
 Hide # $type->currency->catalysts $tier->exhide !utility_minimize
 	Class == "Incubators" "Stackable Currency"
-	BaseType == "Adaptive Catalyst" "Carapace Catalyst" "Chayula's Catalyst" "Esh's Catalyst" "Flesh Catalyst" "Neural Catalyst" "Refined Adaptive Catalyst" "Refined Carapace Catalyst" "Refined Chayula's Catalyst" "Refined Esh's Catalyst" "Refined Flesh Catalyst" "Refined Neural Catalyst" "Refined Skittering Catalyst" "Refined Tul's Catalyst" "Refined Uul-Netol's Catalyst" "Refined Xoph's Catalyst" "Sibilant Catalyst" "Skittering Catalyst" "Tul's Catalyst" "Uul-Netol's Catalyst" "Xoph's Catalyst"
+	BaseType == "Adaptive Catalyst" "Carapace Catalyst" "Chayula's Catalyst" "Esh's Catalyst" "Flesh Catalyst" "Necrotic Catalyst" "Neural Catalyst" "Refined Adaptive Catalyst" "Refined Carapace Catalyst" "Refined Chayula's Catalyst" "Refined Esh's Catalyst" "Refined Flesh Catalyst" "Refined Neural Catalyst" "Refined Skittering Catalyst" "Refined Tul's Catalyst" "Refined Uul-Netol's Catalyst" "Refined Xoph's Catalyst" "Sibilant Catalyst" "Skittering Catalyst" "Tul's Catalyst" "Uul-Netol's Catalyst" "Xoph's Catalyst"
 	SetFontSize 18
 	SetBackgroundColor 20 20 0 0
 
@@ -4086,7 +4108,7 @@ Show # $type->currency $tier->restex !utility_unknownitem
 #	SetFontSize 45
 #	SetBorderColor 180 180 180
 
-#Show # %D5 $type->leveling->salvagable $tier->quality2armorany !itemproperty_salvagelvl1
+#Show # %D4 $type->leveling->salvagable $tier->quality2armorany !itemproperty_salvagelvl1
 #	Quality >= 10
 #	Rarity Normal Magic
 #	Class == "Body Armours" "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "Shields"

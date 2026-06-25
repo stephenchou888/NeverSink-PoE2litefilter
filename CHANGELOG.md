@@ -7,6 +7,20 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.10.3** - New Currencies, Eco Craft improvements
+----------------------------------
+
+- Added the new Liquid Verisium and the new Sacrifice Orbs. Eco-Tiering will be added/enabled once available
+- Added a economy-based automated crafting base tiering for level 81 bases. Previously there was tiering for 79 and 82 and it was super well received, but it created its own little gap/niche.
+- Removed the now stale artefact tier
+
+----------------------------------
+# **VERSION 0.10.2c** - Necrotic Catalysts
+----------------------------------
+
+- Added the newly added Necrotic Catalysts and their refined version
+
+----------------------------------
 # **VERSION 0.10.2a** - Finetuning
 ----------------------------------
 

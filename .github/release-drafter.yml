@@ -1,11 +1,9 @@
 template: |
   *All updates are also available through [FilterBlade](https://www.filterblade.xyz) and on the [PoE filter ladder](https://www.pathofexile.com/item-filter/ladder/follower). Major thanks to all patreon supporters to help us fund the continuous development. [Patreon](https://www.patreon.com/Neversink) supporters also receive a Patreon-exclusive [Filter-Auto-Updater](https://youtu.be/i8RJx0s0zsA).*
   
-  - Improved the tiering of several Expedition drops, such as Aldur's Saga now being S-Tier. This also affects stable.
-  - Added rule to highlight all unique rings (for loreweave)
-  - Increased strictness on verisium and decreased it's highlight
-  - Slightly adjusted the highlight of the newly introduced eco-basetype highlights
-  - Minor adjustments all around
+  - Added the new Liquid Verisium and the new Sacrifice Orbs. Eco-Tiering will be added/enabled once available
+  - Added a economy-based automated crafting base tiering for level 81 bases. Previously there was tiering for 79 and 82 and it was super well received, but it created its own little gap/niche.
+  - Removed the now stale artefact tier
   
   ------
 
