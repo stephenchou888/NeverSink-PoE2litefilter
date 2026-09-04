@@ -1,9 +1,13 @@
 template: |
   *All updates are also available through [FilterBlade](https://www.filterblade.xyz) and on the [PoE filter ladder](https://www.pathofexile.com/item-filter/ladder/follower). Major thanks to all patreon supporters to help us fund the continuous development. [Patreon](https://www.patreon.com/Neversink) supporters also receive a Patreon-exclusive [Filter-Auto-Updater](https://youtu.be/i8RJx0s0zsA).*
   
-  - Added the new Liquid Verisium and the new Sacrifice Orbs. Eco-Tiering will be added/enabled once available
-  - Added a economy-based automated crafting base tiering for level 81 bases. Previously there was tiering for 79 and 82 and it was super well received, but it created its own little gap/niche.
-  - Removed the now stale artefact tier
+  - Added PoE2 event support
+  - Added new PoE2 soul cores
+  - Added the bloom
+  - Added the new expedition tablet
+  - The economy is based on the stable PoE2 filter, but will adjust once economy data is available (on FilterBlade, the follow-filters follow the main PoE2 league)
+  - Several improvements to the tiering algorithm
+  - Finally added proper PoE2 datamining, so that all of the FilterBlade descriptions, implicits are now correct (some minor improvements still needed, like for the new breach bases)
   
   ------
 

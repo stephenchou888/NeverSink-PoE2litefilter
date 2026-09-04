@@ -6,11 +6,11 @@
     },
     {
       "name": "version",
-      "value": "0.10.3"
+      "value": "0.10.4"
     },
     {
       "name": "suffix",
-      "value": "New Currencies, Eco Craft improvements"
+      "value": "Event Support"
     }
   ]
 }
